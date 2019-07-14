@@ -16,10 +16,8 @@ import java.util.Observable;
 import java.util.Observer;
 
 /**
- * Created by Idtk on 2017/3/8.
- * Blog : http://www.idtkm.com
- * GitHub : https://github.com/Idtk
- * des : 九宫格View
+ * @author 伍凯铭 w50005394
+ * @since 2019/7/14
  */
 
 public class IKNinePhotoView extends FrameLayout implements Observer{
