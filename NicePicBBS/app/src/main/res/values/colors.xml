@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="black">#000000</color>
+    <color name="mc_red_33">#FF3320</color>
+    <color name="white">#FFFFFF</color>
+    <color name="mc_transpaent">#00000000</color>
+    <color name="mc_brandcolor">#007DFF</color>
+    <color name="mc_color_gray_e7">#e7e7e7</color>
+    <color name="mc_gray_80">#808080</color>
+</resources>

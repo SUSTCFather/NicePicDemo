@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/user_head"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="14dp"
+        android:layout_toRightOf="@+id/user_head"
+        >
+        <TextView
+            android:id="@+id/user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:text="蔡徐坤"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_below="@+id/user_name"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+            <TextView
+                android:id="@+id/vip_level"
+                android:layout_width="wrap_content"
+                android:layout_height="16dp"
+                android:gravity="center"
+                android:text="尊享会员"
+                android:textColor="@color/white"
+                android:background="@color/colorPrimary"
+                android:textSize="9sp"
+                android:padding="2dp"
+                />
+            <TextView
+                android:id="@+id/power_level"
+                android:layout_width="wrap_content"
+                android:layout_height="16dp"
+                android:gravity="center"
+                android:text="Lv7"
+                android:textColor="@color/white"
+                android:background="@color/mc_red_33"
+                android:layout_marginLeft="5dp"
+                android:textSize="9sp"
+                android:padding="2dp"
+                />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/topic_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bac_circle_corner_gray"
+        android:textSize="16sp"
+        android:textColor="@color/mc_brandcolor"
+        android:layout_below="@+id/user_head"
+        android:layout_marginTop="5dp"
+        android:text="#我用华为看视频#"
+        />
+
+    <TextView
+        android:id="@+id/content_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/topic_content"
+        />
+
+</RelativeLayout>
